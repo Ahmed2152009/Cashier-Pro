@@ -1,0 +1,89 @@
+body {
+ font-family: Arial, sans-serif;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ background: linear-gradient(to right, #ff3300, rgb(255, 0, 234) , hsl(253, 100%, 50%) );
+ /* تدرج لوني للخلفية */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #333;
+}
+
+.container {
+ text-align: left;
+ background-color: white;
+ border-radius: 10px;
+ padding: 30px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ width: 80%;
+ max-width: 600px;
+}
+
+textarea {
+ width: 100%;
+ margin: 10px 0;
+ padding: 12px;
+ font-size: 16px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ box-sizing: border-box;
+ transition: all 0.3s ease;
+}
+
+textarea:focus {
+ border-color: #007BFF;
+ box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+ padding: 12px 24px;
+ font-size: 16px;
+ margin: 10px;
+ cursor: pointer;
+ border: none;
+ border-radius: 8px;
+ background-color: #007BFF;
+ color: white;
+ transition: all 0.3s ease;
+}
+
+button:hover {
+ background-color: #0056b3;
+ transform: scale(1.1);
+ color: #ffffff;
+}
+
+button:active {
+ background-color: #004085;
+}
+
+button:focus {
+ outline: none;
+}
+
+button:focus-visible {
+ box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+}
+
+.copy-btn {
+ background-color: #28a745;
+}
+
+.copy-btn:hover {
+ background-color: #218838;
+}
+
+.copy-btn:active {
+ background-color: #1e7e34;
+}
+
+button:focus {
+ outline: none;
+}
+
+button:focus-visible {
+ box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+}

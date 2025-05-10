@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحويل الحروف</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="inputText" placeholder="أدخل النص هنا..." rows="4" cols="50"></textarea><br>
+        <button class="convert-btn" onclick="convertToArabic()">تحويل إلى عربي</button>
+        <button class="convert-btn" onclick="convertToEnglish()">تحويل إلى إنجليزي</button>
+        <textarea id="outputText" placeholder="الناتج يظهر هنا..." rows="4" cols="50" readonly></textarea><br>
+        <button class="copy-btn" onclick="copyText()">نسخ النص</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
